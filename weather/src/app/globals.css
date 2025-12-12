@@ -1,0 +1,36 @@
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat; 
+  
+}
+.weatherButton {
+  font-size: 22px;
+  background-color: #3498db;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weatherButton:hover {
+  background-color: #2c80b4;
+}
+
+
+
+
+
+
